@@ -49,16 +49,7 @@ class Usuario {
 
     if (count($results) > 0) {
 
-<<<<<<< HEAD
       $this->setData($results[0]);
-=======
-      $row = $results[0];
-
-      $this->setIdUsuario($row['idusuarios']);
-      $this->setDeslogin($row['deslogin']);
-      $this->setDessenha($row['dessenha']);
-      $this->setDtcadastro(new DateTime($row['dtcadastro']));
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 
     }
   }
@@ -92,16 +83,7 @@ class Usuario {
 
     if (count($results) > 0) {
 
-<<<<<<< HEAD
       $this->setData($results[0]);
-=======
-      $row = $results[0];
-
-      $this->setIdUsuario($row['idusuarios']);
-      $this->setDeslogin($row['deslogin']);
-      $this->setDessenha($row['dessenha']);
-      $this->setDtcadastro(new DateTime($row['dtcadastro']));
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 
     } else {
 
@@ -111,7 +93,6 @@ class Usuario {
 
   }
 
-<<<<<<< HEAD
   public function setData($data) {
 
     $this->setIdUsuario($data['idusuarios']);
@@ -160,8 +141,6 @@ class Usuario {
 
   }
 
-=======
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 
   public function __toString() {
 
@@ -175,10 +154,7 @@ class Usuario {
     ));
 
   }
-<<<<<<< HEAD
   
-=======
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 }
 
 ?>

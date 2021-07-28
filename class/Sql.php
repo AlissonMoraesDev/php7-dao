@@ -50,8 +50,4 @@ class Sql extends PDO {
 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 ?>

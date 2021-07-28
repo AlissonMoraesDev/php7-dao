@@ -27,7 +27,6 @@ require_once("config.php");
 
 // carrega um usuário usando login e senha
 
-<<<<<<< HEAD
 // $usuario = new Usuario();
 // $usuario->login('Alisson', '021698');
 
@@ -51,11 +50,4 @@ $usuario->update("Professor", "!@#$%¨&*");
 echo $usuario;
 
 
-=======
-$usuario = new Usuario();
-$usuario->login('Alisson', '021698');
-
-echo $usuario;
-
->>>>>>> 32786bca51879f8b58297827eeeb8d5b61788e53
 ?>
